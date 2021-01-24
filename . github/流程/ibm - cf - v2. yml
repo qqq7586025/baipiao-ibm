@@ -24,15 +24,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     env:
-      IBM_CF_USERNAME: ${{ secrets.IBM_CF_USERNAME }}
-      IBM_CF_PASSWORD: ${{ secrets.IBM_CF_PASSWORD }}
-      IBM_CF_ORG_NAME: ${{ secrets.IBM_CF_ORG_NAME }}
-      IBM_CF_SPACE_NAME: ${{ secrets.IBM_CF_SPACE_NAME }}
-      IBM_CF_APP_NAME: ${{ secrets.IBM_CF_APP_NAME }}
-      V2_UUID: ${{ secrets.V2_UUID }}
+      IBM_CF_USERNAME: wcnzda@qq.com
+      IBM_CF_PASSWORD: w7586025W+
+      IBM_CF_ORG_NAME: wcnzda@qq.com
+      IBM_CF_SPACE_NAME: dev
+      IBM_CF_APP_NAME: baipiao123
+      V2_UUID: 5a3896ab-378b-434a-9936-b2b62717b4fc
       V2_WS_PATH_VMESS: ${{ secrets.V2_WS_PATH_VMESS }}
-      V2_WS_PATH_VLESS: ${{ secrets.V2_WS_PATH_VLESS }}
-
+      V2_WS_PATH_VLESS: wcnzd123
     steps:
 
     - name: Install Cloud Foundry CLI
